@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'myFont';
+    src: url('assets/font/go3v2.ttf');
+}
+body{
+    font-family: 'myFont';
+    font-weight: bold;
+   
+    margin: auto;
+}
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.268)) ,url(/assets/img/imgAccueil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+}
+.small {
+    font-size: 0.6em;
+}
+.entree{
+    background-color: rgb(34,34,36);
+    color: white;
+    margin: 0;
+    border-radius: 1em;
+    padding: 1em;
+    height: 25vh;
+    font-size: 1.2em;
+}
+.menu {
+    display: none;
+}
+.choix{
+    margin: auto;
+}
+
+
+  .navbar-toogler {
+    margin: 0 40%;
+  }
+@media screen and (max-width:425px) {
+    .header {
+        height: 10vh;
+    }
+    .box {
+        width: 100%;
+    }
+.entree {
+    display: block;
+    height: auto;
+}
+.menu {
+    display: block;
+}
+.choix {
+    display: none;
+}
+.btn{
+    background-color:rgb(34,34,36); 
+    color: white;
+    width: 100%;
+    border:none;
+}
+
+ 
+}

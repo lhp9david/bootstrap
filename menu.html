@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons-1.9.1/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Menu</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="row m-0">
+            <h1 class="title text-center display-1 font-weight-bold text-white">Wok Up</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="navbar-brand" href="index.html">Accueil</a>
+                    <a class="navbar-brand" href="#entrees">Entrée</a>
+                    <a class="navbar-brand" href="#plats">Plats</a>
+                    <a class="navbar-brand" href="#dessert">Dessert</a>
+                    <a class="navbar-brand" href="#boisson">Boissons</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <h2 class="text-center mt-2 ">Je compose ma Box</h2>
+
+    <div class="box row justify-content-center my-5">
+        <div class="boxChoice ">
+            <p class="text-center" class="">Fifty's 7.50€</p>
+            <p class="text-center" class="">Seventy's 9.50€</p>
+            <p class="text-center" class="">Veggie box 7.50€ <br>
+            <p class="small text-center"> - 3 légumes au choix <br>
+                - Accompagnement au choix <br>
+                - Sauce au choix <br></p>
+            </p>
+            <p class="text-center" class="">Supplément <br>
+            <p class="small text-center">- Viande 2€ <br>- Oeuf 1€ <br> - Cacahuètes 0.50€</p>
+            </p>
+        </div>
+    </div>
+
+    <div class="choix  row my-5">
+        <div class="viande col-lg-3 col-md-6">
+            <h2>Choix de la viande</h2>
+            <p><img src="assets/img/icons/silhouette-de-vache.png" alt=""> -Boeuf</p>
+            <p><img src="assets/img/icons/crevette.png" alt=""> -Crevettes</p>
+            <p><img src="assets/img/icons/poisson.png" alt=""> -Poissons</p>
+            <p><img src="assets/img/icons/poulet-roti.png" alt=""> -Poulet</p>
+            <p><img src="assets/img/icons/seiche.png" alt=""> -Seiche</p>
+
+        </div>
+        <div class="legumes col-lg-3 col-md-6">
+            <h2>Choix des légumes</h2>
+            <p> <img src="assets/img/icons/ananas.png" alt=""> -Ananas</p>
+            <p><img src="assets/img/icons/bambou.png" alt=""> -Bambou</p>
+            <p><img src="assets/img/icons/champignon.png" alt=""> -Champignon noir</p>
+            <p><img src="assets/img/icons/chou.png" alt=""> -Chou chinois</p>
+            <p><img src="assets/img/icons/oignon.png" alt=""> -Oignons</p>
+            <p><img src="assets/img/icons/poivron.png" alt=""> -Poivrons</p>
+            <p><img src="assets/img/icons/soja.png" alt=""> -Soja</p>
+        </div>
+        <div class="sauce col-lg-3 col-md-6">
+            <h2>Choix des sauces</h2>
+            <p><img src="assets/img/icons/pimentBlanc.png" alt=""> - Non pimenté
+            <p class="small ms-4">(Traditionnel,Aigre douce, Caramel)</p>
+            </p>
+            <p><img src="assets/img/icons/pimentVert.png" alt=""> - Moyenne
+            <p class="small ms-4">(Wok up)</p>
+            </p>
+            <p><img src="assets/img/icons/pimentJaune.png" alt=""> - Légère
+            <p class="small ms-4">(Curry, Coco, Salay)</p>
+            </p>
+            <p><img src="assets/img/icons/pimentRouge.png" alt=""> - Forte
+            <p class="small ms-4">(Curry, Basilic, Pimentée)</p>
+            </p>
+        </div>
+        <div class="accompagnement col-lg-3 col-md-6">
+            <h2>Choix de l'accompagnement</h2>
+            <p><img src="assets/img/icons/nouilles.png" alt=""> - Nouilles</p>
+            <p><img src="assets/img/icons/riz.png" alt=""> - Riz</p>
+            <p><img src="assets/img/icons/rizThaï.png" alt="">- Riz Thaï</p>
+        </div>
+    </div>
+    <!-- menu déroulant Viande -->
+    <p class="menu text-center">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Choix des viandes
+        </a>
+
+    </p>
+    <div class="collapse" id="collapseExample1">
+        <div class="card card-body">
+            <p><img src="assets/img/icons/silhouette-de-vache.png" alt=""> -Boeuf</p>
+            <p><img src="assets/img/icons/crevette.png" alt=""> -Crevettes</p>
+            <p><img src="assets/img/icons/poisson.png" alt=""> -Poissons</p>
+            <p><img src="assets/img/icons/poulet-roti.png" alt=""> -Poulet</p>
+            <p><img src="assets/img/icons/seiche.png" alt=""> -Seiche</p>
+        </div>
+    </div>
+
+    <!-- menu deroulant légumes -->
+    <p class="menu text-center">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Choix des légumes
+        </a>
+
+    </p>
+    <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+            <p> <img src="assets/img/icons/ananas.png" alt=""> -Ananas</p>
+            <p><img src="assets/img/icons/bambou.png" alt=""> -Bambou</p>
+            <p><img src="assets/img/icons/champignon.png" alt=""> -Champignon noir</p>
+            <p><img src="assets/img/icons/chou.png" alt=""> -Chou chinois</p>
+            <p><img src="assets/img/icons/oignon.png" alt=""> -Oignons</p>
+            <p><img src="assets/img/icons/poivron.png" alt=""> -Poivrons</p>
+            <p><img src="assets/img/icons/soja.png" alt=""> -Soja</p>
+        </div>
+    </div>
+
+    <!-- menu déroulant sauce -->
+    <p class="menu text-center">
+        <a class="btn " data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Choix des sauces
+        </a>
+    </p>
+    <div class="collapse" id="collapseExample3">
+        <div class="card card-body">
+            <p><img src="assets/img/icons/pimentBlanc.png" alt=""> - Non pimenté
+            <p class="small ms-4">(Traditionnel,Aigre douce, Caramel)</p>
+            </p>
+            <p><img src="assets/img/icons/pimentVert.png" alt=""> - Moyenne
+            <p class="small ms-4">(Wok up)</p>
+            </p>
+            <p><img src="assets/img/icons/pimentJaune.png" alt=""> - Légère
+            <p class="small ms-4">(Curry, Coco, Salay)</p>
+            </p>
+            <p><img src="assets/img/icons/pimentRouge.png" alt=""> - Forte
+            <p class="small ms-4">(Curry, Basilic, Pimentée)</p>
+            </p>
+        </div>
+    </div>
+
+    <!-- menu déroulant accompagnement -->
+    <p class="menu text-center">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Choix de l'accompagnement
+        </a>
+
+    </p>
+    <div class="collapse" id="collapseExample4">
+        <div class="card card-body">
+            <p><img src="assets/img/icons/nouilles.png" alt=""> - Nouilles</p>
+            <p><img src="assets/img/icons/riz.png" alt=""> - Riz</p>
+            <p><img src="assets/img/icons/rizThaï.png" alt="">- Riz Thaï</p>
+        </div>
+    </div>
+
+    </div>
+
+    <!-----------------------------------------------------------ENTREE------------------------------------------------------------------ -->
+    <div class="containerEntree container rounded py-1 ">
+        <h2 id="entrees" class="text-center mt-2  ">Entrées</h2>
+
+        <!-- Entrée 1 -->
+        <div class="entree row justify-content-evenly my-2 ">
+            <div class="imgEntree  col-lg-2 rounded d-flex justify-content-center align-items-center">
+                <img class="" src="assets/img/brochettes.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center ">
+                Brochettes aux 3 parfums <br>
+                (poulet par 2)
+            </div>
+            <div class="prix col-lg-3 d-flex justify-content-center align-items-center">2€50</div>
+        </div>
+
+        <!-- Entrée 2 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree col-lg-2 rounded d-flex justify-content-center align-items-center">
+                <img class="" src="assets/img/entréeNems.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                 Nems <br>
+                (poulet par 3)
+            </div>
+            <div class="prix col-lg-3 d-flex justify-content-center align-items-center">2€50</div>
+        </div>
+
+        <!-- Entrée 3 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree  col-lg-2 rounded d-flex justify-content-center align-items-center ">
+                <img class="" src="assets/img/entréeSamossas.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                Samoussas <br>
+                (boeuf par 3)
+            </div>
+            <div class="prix col-lg-3 d-flex justify-content-center align-items-center">2€50</div>
+        </div>
+
+        <!-- Entrée 4 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree col-lg-2 rounded d-flex justify-content-center align-items-center">
+                <img class="" src="assets/img/entréeWings.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex   align-items-center">
+                Wings <br>
+                (poulet par 3)
+            </div>
+            <div class="prix col-lg-3  d-flex justify-content-center align-items-center">2€50</div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------PLATS------------------------------------------------------------------->
+    <div class=" container rounded py-1 my-5">
+        <h2 id="plats" class="text-center mt-2 ">Plats</h2>
+
+        <!-- Plat 1 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree  col-lg-2 rounded d-flex justify-content-center align-items-center">
+                <img class="" src="assets/img/escalopeMarine.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                Thaï Chicken Fried <br>
+                (escalope de poulet mariné frit accompagnée de son riz nature)
+            </div>
+            <div class="prix col-lg-3 d-flex justify-content-center align-items-center">8€</div>
+        </div>
+
+        <!-- Plat 2 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree col-lg-2 rounded d-flex justify-content-center align-items-center">
+                <img class="" src="assets/img/padThaï.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                Pad Thaï<br>
+                (Sauté de vermicelle de riz, oeuf, soja, emincé de crevettes et de cacahuètes)
+            </div>
+            <div class="prix col-lg-3 d-flex justify-content-center align-items-center">5€50</div>
+        </div>
+
+        <!-- Plat 3 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree  col-lg-2 rounded d-flex justify-content-center align-items-center ">
+                <img class="" src="assets/img/poisson (1).png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                Thaï Fish <br>
+                (Riz blanc parfumé, poisson à la sauce aigre douce relevée, sauté de poivrons et oignons)
+            </div>
+            <div class="prix col-lg-3 d-flex justify-content-center align-items-center">8€</div>
+        </div>
+
+        <!-- Plat 4 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree col-lg-2 rounded d-flex justify-content-center align-items-center">
+                <img class="" src="assets/img/khaoPadPoulet (1).png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                Khao Pad <br>
+                (Riz sauté aux poulets ou crevettes, oeuf, petits pois et carottes)
+            </div>
+            <div class="prix col-lg-3  d-flex justify-content-center align-items-center">8€</div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------DESSERTS------------------------------------------------------------------->
+    <div class=" container rounded py-1 my-5">
+        <h2 id="dessert" class="text-center mt-2 ">Dessert</h2>
+
+        <!-- Dessert -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree  col-lg-2 rounded d-flex justify-content-center align-items-center">
+                <img class="" src="assets/img/dessert.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                Dessert au choix
+            </div>
+            <div class="prix col-lg-3 d-flex justify-content-center align-items-center">2.50€</div>
+        </div>
+    </div>
+    <!-------------------------------------------------BOISSONS------------------------------------------------------------------->
+    <div class=" container rounded py-1 my-5">
+        <h2 id="boisson" class="text-center mt-2 ">Boissons</h2>
+
+        <!-- Boisson 1 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree  col-lg-2 rounded d-flex justify-content-center align-items-center">
+                <img class="" src="assets/img/sodas.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                Soda, Jus, Eau, Café <br>
+                (Pepsi, Pepsi Max, Seven Up,Orangina,Perrier, Café Expresso)
+            </div>
+            <div class="prix col-lg-3 d-flex justify-content-center align-items-center">1.50€</div>
+        </div>
+
+        <!-- Boisson 2 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree col-lg-2 rounded d-flex justify-content-center align-items-center">
+                <img class="" src="assets/img/boissonAsiatique.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                Boissons Asiatiques<br>
+                (jus de mangue, lychees, passion, ananas)
+            </div>
+            <div class="prix col-lg-3 d-flex justify-content-center align-items-center">1.50€</div>
+        </div>
+
+        <!-- Boisson 3 -->
+        <div class="entree row justify-content-evenly my-2">
+            <div class="imgEntree  col-lg-2  rounded d-flex justify-content-center align-items-center ">
+                <img class="" src="assets/img/jusAloeVera.png" alt="">
+            </div>
+            <div class="description col-lg-4 d-flex  align-items-center">
+                Jus d'Aloé Véra <br>
+                (Mangue, goyave, exotique)
+            </div>
+            <div class="prix col-lg-3  d-flex justify-content-center align-items-center">2.50€</div>
+        </div>
+
+        <div id="scroll_to_top">
+            <a href="#top"><i class="bi bi-arrow-up-square-fill"></i></a>
+        </div>
+
+
+    </div>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
