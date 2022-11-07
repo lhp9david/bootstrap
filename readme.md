@@ -22,7 +22,7 @@ Mettre en place *la carte des plats* d'un restaurant au format **desktop** et **
 
 ## Hébergement du projet
 
-Le site est disponible [à cette adresse](http://materializecss.com).
+Le site est disponible [à cette adresse](https://lhp9david.github.io/bootstrap/).
 
 
 ## Fabriqué avec
