@@ -1,71 +1,193 @@
-@font-face{
+@font-face {
     font-family: 'myFont';
     src: url('assets/font/go3v2.ttf');
 }
-body{
-    font-family: 'myFont';
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-   
     margin: auto;
+    background-color: rgb(34, 34, 36);
+    color: white;
 }
-.header{
-    background: linear-gradient(rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.268)) ,url(/assets/img/imgAccueil.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    
+
+header {
+    height: auto;
+}
+
+header img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.accueil {
+    margin-bottom: 3em;
+}
+
+.btnAccueil {
+    background-color: rgb(16, 151, 199);
+    color: white;
+}
+
+nav {
+    background: linear-gradient(to right, rgb(16, 151, 199)30.5%, rgb(234, 206, 0)30.5% 100%)
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.numero {
+    color: white;
+}
+
+h2 {
+    background-color: rgb(16, 151, 199);
+    border-radius: 0.5em;
+}
+
+.choix h2 {
+    background-color: rgb(234, 206, 0)
 }
 
 .box {
     width: 50%;
     margin: auto;
 }
-.small {
-    font-size: 0.6em;
+
+.boxChoice {
+    border-right: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    border-left: 1px solid yellow;
 }
-.entree{
-    background-color: rgb(34,34,36);
+
+.choix h2 {
+    font-size: 1.5em;
+}
+
+.boxIngredient {
+    
+    border-radius: 1em;
+    margin: auto;
+    padding: 1em;
+    background-color: rgb(16, 151, 199);
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+.entree {
+    background-color: rgb(34, 34, 36);
     color: white;
-    margin: 0;
+    margin: 1.5em auto;
     border-radius: 1em;
     padding: 1em;
-    height: 25vh;
+    height: 30vh;
     font-size: 1.2em;
+    box-shadow: 0px 0px 5px rgb(234, 206, 0);
 }
+
+.description {
+    margin: 1em auto;
+}
+
 .menu {
     display: none;
 }
-.choix{
+
+.choix {
     margin: auto;
 }
 
 
-  .navbar-toogler {
+.navbar-toogler {
     margin: 0 40%;
-  }
-@media screen and (max-width:425px) {
-    .header {
-        height: 10vh;
-    }
-    .box {
-        width: 100%;
-    }
-.entree {
-    display: block;
-    height: auto;
-}
-.menu {
-    display: block;
-}
-.choix {
-    display: none;
-}
-.btn{
-    background-color:rgb(34,34,36); 
-    color: white;
-    width: 100%;
-    border:none;
 }
 
- 
+
+.qrCode {
+    width: 10em;
+    margin:2em;
+}
+
+i {
+    color: rgb(16, 151, 199);
+    font-size: 2em;
+}
+
+
+footer {
+    display: flex;
+    background-color: rgb(16, 151, 199);
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(34, 34, 36);
+}
+.card{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    header {
+        height: auto;
+    }
+
+    header img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .entree {
+        display: block;
+        height: auto;
+    }
+
+    .menu {
+        display: block;
+        background-color: rgb(234, 206, 0);
+        width: 90%;
+        margin: 0.5em auto;
+    }
+
+    .choix {
+        display: none;
+    }
+
+    .btnMenu {
+        background-color: rgb(234, 206, 0);
+        color: white;
+        border: none;
+
+    }
+
+    .card {
+        background-color: rgb(16, 151, 199);
+        margin-bottom: 2em;
+        width: 90%;
+        margin: auto;
+
+    }
+
+    footer a {
+        font-size: 0.8em;
+    }
+
+
 }
