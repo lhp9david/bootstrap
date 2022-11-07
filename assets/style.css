@@ -9,6 +9,7 @@ body {
     margin: auto;
     background-color: rgb(34, 34, 36);
     color: white;
+    height: 100%;
 }
 
 header {
@@ -19,6 +20,7 @@ header img {
     object-fit: cover;
     width: 100%;
     height: auto;
+    margin-top:-250px;
 }
 
 .accueil {
@@ -127,7 +129,7 @@ footer {
 }
 
 footer a {
-    margin: 0 1em;
+    margin: 0 2em;
     color: white;
     text-decoration: none;
 }
@@ -135,19 +137,19 @@ footer a {
 footer a:hover {
     color: rgb(34, 34, 36);
 }
-.card{
-    display: none;
-}
+
 
 @media screen and (max-width:768px) {
     header {
         height: auto;
+        
     }
 
     header img {
         object-fit: cover;
         width: 100%;
         height: auto;
+        margin: 0;
     }
 
     .box {
@@ -187,6 +189,10 @@ footer a:hover {
 
     footer a {
         font-size: 0.8em;
+        margin: auto 2em;
+    }
+    footer {
+        margin: 0;
     }
 
 
