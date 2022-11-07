@@ -21,7 +21,7 @@ Mettre en place *la carte des plats* d'un restaurant au format **desktop** et **
 
 ## Hébergement du projet
 
-Le site est disponible [à cette adresse](http://votrepage.github.io).
+Le site est disponible [à cette adresse](https://lhp9david.github.io/bootstrap/index.html).
 
 
 ## Fabriqué avec
@@ -32,7 +32,7 @@ Le site est disponible [à cette adresse](http://votrepage.github.io).
 
 ## Auteurs
 
-* **Votre prénom** _alias_ [@outout14](https://github.com/outout14)
+* **David** _alias_ [@lhp9david](https://github.com/lhp9david)
 
 
 
