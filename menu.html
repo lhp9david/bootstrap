@@ -367,11 +367,40 @@
     </section>
 
     <footer>
-        <a href="mentionsLegale.html">Mentions légales</a>
+        <a class="btn text-white" type="button" data-bs-toggle="modal" data-bs-target="#mentionslegales" >Mentions légales</a>
         <a href="#">Contact</a>
         <a href="#">A propos</a>
     </footer>
+    <div
+    class="modal fade"
+    id="mentionslegales"
+    tabindex="-1"
+    aria-labelledby="mentionslegales"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-12 col-12">
+              <h3 class="pb-2 fw-normal">Mentions Légales</h3>
+              <p>
+                Ceci est un site fictif, réalisé pendant la formation Développement Web & Web Mobile à La Manu au Havre.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="assets/js/bootstrap.bundle.js"></script>
+
 </body>
 
 </html>
